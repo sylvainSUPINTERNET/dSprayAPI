@@ -9,7 +9,7 @@ public class AnnouncePostDto {
 
     public String contractTitle;
 
-    public int amount;
+    public String amount;
 
     public AnnouncePostDto() {}
 
@@ -19,7 +19,7 @@ public class AnnouncePostDto {
 
     public void setContractAddress(String contractAddress) {
         this.contractAddress = contractAddress;
-    }
+    } 
 
     public String getContractTitle() {
         return this.contractTitle;
@@ -29,11 +29,11 @@ public class AnnouncePostDto {
         this.contractTitle = contractTitle;
     }
 
-    public int getAmount() {
+    public String getAmount() {
         return this.amount;
     }
 
-    public void setAmount(int amount) {
+    public void setAmount(String amount) {
         this.amount = amount;
     }
 

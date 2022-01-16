@@ -13,7 +13,10 @@ public class Announce {
 
     public String contractTitle;
 
-    public int amount;
+    // hex
+    // Javascript produce BigNumber type with _hex, convert it to decimal to get WEI then convert wei to ether
+    // For ether, will corresponding to wei value
+    public String amount;
 
     public Announce(){}
 
@@ -41,11 +44,11 @@ public class Announce {
         this.contractTitle = contractTitle;
     }
 
-    public int getAmount() {
+    public String getAmount() {
         return this.amount;
     }
 
-    public void setAmount(int amount) {
+    public void setAmount(String amount) {
         this.amount = amount;
     }
 }
