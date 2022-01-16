@@ -1,0 +1,5 @@
+
+spring:
+  data:
+    mongodb:
+      uri: ${MONGODB_CLUSTER_URI}
