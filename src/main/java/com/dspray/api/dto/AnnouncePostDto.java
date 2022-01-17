@@ -36,5 +36,6 @@ public class AnnouncePostDto {
     public void setAmount(String amount) {
         this.amount = amount;
     }
+    
 
 }
