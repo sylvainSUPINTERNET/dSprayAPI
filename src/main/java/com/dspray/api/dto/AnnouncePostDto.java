@@ -13,6 +13,7 @@ public class AnnouncePostDto {
 
     public AnnouncePostDto() {}
 
+    
     public String getContractAddress() {
         return this.contractAddress;
     }
@@ -31,6 +32,7 @@ public class AnnouncePostDto {
 
     public String getAmount() {
         return this.amount;
+        
     }
 
     public void setAmount(String amount) {
